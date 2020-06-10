@@ -1,0 +1,25 @@
+{
+  "name": "nodetest_w3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint --format codeframe .",
+    "test": "./node_modules/.bin/mocha tests/*test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhalingale/NodeTest_w3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rhalingale/NodeTest_w3/issues"
+  },
+  "homepage": "https://github.com/rhalingale/NodeTest_w3#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.2.0",
+    "mocha": "^7.2.0"
+  }
+}
